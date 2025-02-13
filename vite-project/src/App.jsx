@@ -1,11 +1,13 @@
-import Counter from './Counter.jsx';
+import React from 'react';
+import Counter from './Counter.jsx'
+import Bgchanger from './BgChanger.jsx';
 function App() {
 
   return (
     <>
-    <h1>This is first react-with-vite</h1>
-    <p>Belowe is counter file</p>
-    <Counter />  
+    <h1 className="text-center p-2 text-primary">This is first react-with-vite</h1>
+<Counter/>
+    <Bgchanger/>  
     </>
   )
 }
